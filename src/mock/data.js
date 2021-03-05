@@ -39,8 +39,8 @@ export const projectsData = [
     id: nanoid(),
     img: "cover_reactsocial.jpg",
     title: "A Social Network in React",
-    info: "Here is short project done in 3 days, as part of my React training: a functional social network, allowing you to register, sign up, post contents and observe those of other users of the platform.",
-    info2: "It is very minimalistic to be honest. I am fully aware that there is a million more exciting things to implement here. But at the same time, this project symbolically reminds me when I really started to understand the key principles of React, its power and speed.",
+    info: "Here is a short project done in 3 days, as part of my React training path: a functional social network, allowing you to register, log in, post contents and observe those of other users of the platform.",
+    info2: "Let's be real, it is very minimalistic. I am fully aware that there is a million more exciting things to implement here. But at the same time, this project symbolically reminds me when I really started to understand the key principles of React, its power and speed.",
     url: "https://my-social-network-qplaud.vercel.app/",
     repo: "https://github.com/kentsbrockman/Social-Network-in-React", // if no repo, the button will not show up
   },
@@ -57,9 +57,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  url: 'https://www.linkedin.com/in/quentin-plaud-5416b814b/',
+  cta: "",
+  btn: "",
+  url: "https://www.linkedin.com/in/quentin-plaud-5416b814b/",
 };
 
 // FOOTER DATA
