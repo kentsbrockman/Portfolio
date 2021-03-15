@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: "cover_pulpoludo.jpg",
     title: "Pulpo Ludo",
-    info: "This application aims to be the future Netflix of the board games. The first version of this site has been realized during the final project of the Fullstack Web training of The Hacking Project. During 2 weeks, the project team worked to deliver a complete web application, robust on the Backend and clean on the Frontend.",
-    info2: "",
+    info: "This application aims to be the future Netflix of the board games. The first version of this site has been realized during the final project of the Fullstack Web training of The Hacking Project.",
+    info2: "During 2 weeks, the project team worked to deliver a complete web application, robust on the Backend and clean on the Frontend.",
     url: "https://dev-pulpoludo-thp.herokuapp.com/",
     repo: "https://github.com/kentsbrockman/Pulpo-Ludo", // if no repo, the button will not show up
   },
@@ -48,8 +48,8 @@ export const projectsData = [
     id: nanoid(),
     img: "cover_formyou.jpg",
     title: "Form You",
-    info: "This team project has been done in 4 days during the very last part of The Hacking Project bootcamp. The web application aims to offer a service where you can register to a variety of training sessions, materialized as events in a calendar. In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails, and a React app for the Frontend display. Notably, there is also a strong management of roles involved: administrator, teacher and student. It is fully functional. Though the overall design and ux could be improved, we take pride in the delivery of the package of features in 4 days.",
-    info2: "",
+    info: "This team project has been done during the very last part of The Hacking Project bootcamp. This web application lets you register to a variety of trainings, materialized as events in a calendar.",
+    info2: "In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails, and a React app for the Frontend display. There is finally a strong management of roles involved: administrator, teacher and student. The web application is fully functional. Though the overall design and ux could be improved, we take pride in the delivery of the package of features in 4 days.",
     url: "https://reactformyou.herokuapp.com/",
     repo: "https://github.com/kentsbrockman/react_formyou", // if no repo, the button will not show up
   },
