@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "cover_learningstuff.jpg",
+    title: "Learning Stuff",
+    info: "This team project has been done during the very last part of The Hacking Project bootcamp. This web application lets you register and pay for e-learning individual courses or wider learning paths.",
+    info2: "In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails for the data management, and a React app for the Frontend display. I've personally worked on the implementation of 2 external APIs into the website: AWS S3 for the avatar management, and Stripe for the payment and invoices modules.",
+    url: "https://learning-stuff-thp.herokuapp.com/",
+    repo: "https://github.com/kentsbrockman/front_learningstuff", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "cover_pulpoludo.jpg",
     title: "Pulpo Ludo",
     info: "This application aims to be the future Netflix of the board games. The first version of this site has been realized during the final project of the Fullstack Web training of The Hacking Project.",
@@ -44,15 +53,6 @@ export const projectsData = [
     url: "https://my-social-network-qplaud.vercel.app/",
     repo: "https://github.com/kentsbrockman/Social-Network-in-React", // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: "cover_formyou.jpg",
-    title: "Form You",
-    info: "This team project has been done during the very last part of The Hacking Project bootcamp. This web application lets you register to a variety of trainings, materialized as events in a calendar.",
-    info2: "In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails, and a React app for the Frontend display. There is finally a strong management of roles involved: administrator, teacher and student. The web application is fully functional. Though the overall design and ux could be improved, we take pride in the delivery of the package of features in 4 days.",
-    url: "https://reactformyou.herokuapp.com/",
-    repo: "https://github.com/kentsbrockman/react_formyou", // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
@@ -63,30 +63,20 @@ export const contactData = {
 };
 
 // FOOTER DATA
-// export const footerData = {
-//   networks: [
-//     {
-//       id: nanoid(),
-//       name: 'twitter',
-//       url: '',
-//     },
-//     {
-//       id: nanoid(),
-//       name: 'codepen',
-//       url: '',
-//     },
-//     {
-//       id: nanoid(),
-//       name: 'linkedin',
-//       url: '',
-//     },
-//     {
-//       id: nanoid(),
-//       name: 'github',
-//       url: '',
-//     },
-//   ],
-// };
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/quentin-plaud-5416b814b/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/kentsbrockman',
+    },
+  ],
+};
 
 // Github start/fork buttons
 export const githubButtons = {
