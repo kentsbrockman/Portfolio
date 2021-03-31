@@ -31,7 +31,7 @@ export const projectsData = [
     img: "cover_learningstuff.jpg",
     title: "Learning Stuff",
     info: "This team project has been done during the very last part of The Hacking Project bootcamp. This web application lets you register and pay for e-learning individual courses or wider learning paths.",
-    info2: "In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails for the data management, and a React app for the Frontend display. I've personally worked on the implementation of 2 external APIs into the website: AWS S3 for the avatar management, and Stripe for the payment and invoices modules.",
+    info2: "In fact, the project has been built on 2 separate applications: an API managed on Ruby on Rails for the data management, and a React app for the Frontend display. On my side, I have largely worked on the implementation of 2 external APIs into the website: AWS S3 for the avatar management, and Stripe for the payment and invoices modules.",
     url: "https://learning-stuff-thp.herokuapp.com/",
     repo: "https://github.com/kentsbrockman/front_learningstuff", // if no repo, the button will not show up
   },
