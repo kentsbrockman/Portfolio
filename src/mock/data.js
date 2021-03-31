@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: "",
   btn: "",
-  url: "https://www.linkedin.com/in/quentin-plaud-5416b814b/",
+  url: "https://www.linkedin.com/in/quentin-plaud/",
 };
 
 // FOOTER DATA
@@ -67,13 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/quentin-plaud-5416b814b/',
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/quentin-plaud/",
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/kentsbrockman',
+      name: "github",
+      url: "https://github.com/kentsbrockman",
     },
   ],
 };
