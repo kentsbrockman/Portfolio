@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: "profile_fb.jpg",
   paragraphOne: "First and foremost, I am an education enthusiast with a taste for adventure 🚀",
-  paragraphTwo: "After a career journey filled with diversity, inspiring encounters and passions, I made the strategic choice of heading straight towards web development, an impenetrable yet intriguing world that I had the occasion to gaze at back when I was working in startups 💻",
-  paragraphThree: "Fortunately, this decision was for the best, as I happen to absolutely love coding. And yes, that includes when I spend intimate hours with my laptop debugging, cleaning my code, debugging again and finally reaching that moment when the magic happens ✨",
+  paragraphTwo: "After a career journey filled with diversity, inspiring encounters and passions, I made the strategic choice of heading straight towards web development, an impenetrable yet intriguing world that I had the occasion to get acquainted to back when I was working in startups 💻",
+  paragraphThree: "Fortunately, this decision was for the best, as I happen to absolutely love coding. And yes, that includes me spending intimate hours with my laptop debugging, cleaning my code, debugging again and finally reaching that moment when the magic happens ✨",
   //resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
 };
 
